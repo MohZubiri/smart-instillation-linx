@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=Smart Package Installer
+Name[ar]=المثبّت الذكي
+Comment=Universal package installer for Ubuntu
+Comment[ar]=مثبت الحزم الذكي الشامل لنظام أوبونتو
+Exec=/usr/local/bin/smart-installer %U
+TryExec=/usr/local/bin/smart-installer
+Icon=smart-installer
+Terminal=false
+Categories=System;PackageManager;Utility;
+StartupNotify=true
+StartupWMClass=smart-installer
+MimeType=application/vnd.debian.binary-package;application/vnd.appimage;application/x-iso9660-appimage;application/gzip;application/x-xz;application/x-bzip2;application/zip;
+

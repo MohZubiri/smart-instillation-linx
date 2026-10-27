@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bd93f9" />
+      <stop offset="100%" stop-color="#6272a4" />
+    </linearGradient>
+    <linearGradient id="gradBox" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#50fa7b" />
+      <stop offset="100%" stop-color="#282a36" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#gradBg)" />
+  
+  <!-- Package Box Body -->
+  <path d="M64 28 L98 44 L64 60 L30 44 Z" fill="#f8f8f2" opacity="0.95" />
+  <path d="M30 46 L64 62 L64 96 L30 80 Z" fill="#44475a" />
+  <path d="M98 46 L64 62 L64 96 L98 80 Z" fill="#6272a4" />
+
+  <!-- Downward Arrow (Install Symbol) -->
+  <g transform="translate(64, 48)">
+    <path d="M0 -12 L0 16" stroke="#50fa7b" stroke-width="7" stroke-linecap="round" />
+    <path d="M-10 6 L0 18 L10 6" fill="none" stroke="#50fa7b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
+
